@@ -1,0 +1,23 @@
+# DePE NeurIPS Research Implementation
+# Requirements for RTX 4060 8GB + i7 13th gen
+
+# Core
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24.0
+tqdm>=4.65.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+pandas>=2.0.0
+
+# Optional: Flash Attention (Windows wheels)
+# pip install flash-attn --no-build-isolation
+# OR use PyTorch native SDPA (included in torch>=2.0)
+
+# Data
+Pillow>=9.5.0
+
+# Config
+pyyaml>=6.0
